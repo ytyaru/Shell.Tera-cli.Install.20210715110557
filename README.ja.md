@@ -39,7 +39,12 @@ cd Shell.Tera-cli.Install.20210715110557/src
 
 # 注意
 
-* 注意点など
+* `{% include 'README_feature.tpl' %}`するとエラーになってしまう
+
+```sh
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error { kind: Msg("Failed to render '__tera_one_off'"), source: Some(Error { kind: TemplateNotFound("[README_feature.tpl]"), source: None }) }', src/main.rs:32:67
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
 
 # 著者
 

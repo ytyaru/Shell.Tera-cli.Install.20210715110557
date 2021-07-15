@@ -1,0 +1,9 @@
+[site]
+name = 'サイトの名前'
+author = 'サイトの著者名'
+
+[article]
+title = '記事のタイトルだよ'
+summary = '記事の要約ですわ。'
+
+

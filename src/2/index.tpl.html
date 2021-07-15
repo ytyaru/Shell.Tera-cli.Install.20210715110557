@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ article.title }} | {{ site.name }}</title>
+    {% include 'meta-description.tpl.html' ignore missing -%}
+    {% include 'meta-author.tpl.html' ignore missing -%}
+    {% include 'meta-keywords.tpl.html' ignore missing -%}
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header><nav><ul><li><a href=""></a></li></ul></nav></header>
+    <main>
+        <header><!-- published-at, updated-at, category, tags, read-time --></header>
+        <article>
+            <section>
+                <h1 id="doc-title">{{ article.title }}</h1>
+                <p id="doc-summary">{{ article.summary }}</p>
+            <section>
+        </article>
+        <footer><!--  --></footer>
+    </main>
+    <aside><!-- disqus comment --></aside>
+    <aside><!-- ad --></aside>
+    <footer></footer>
+</body>
+</html>
+

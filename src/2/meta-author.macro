@@ -1,0 +1,5 @@
+{% macro author() -%}
+{% if site.author %}
+<meta name="author" content="{{ site.author }}">
+{% endif %}
+{%- endmacro %}
